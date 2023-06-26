@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Integrantes() {
+function Integrantes(props) {
     return (
         <div>
     
@@ -31,8 +31,7 @@ function Integrantes() {
 
                                     <h5 className="card-title">Alejandro Bendeck</h5>
 
-                                    <p className="card-text">El diseñador del grupo, su fuerte es la creacion de personajes, paisajes y mucho mas,
-                                        tiene muy bien estructurada su linea en diseño grafico.
+                                    <p className="card-text">{props.integrantesproyecto}
                                     </p>
 
                                 </div>

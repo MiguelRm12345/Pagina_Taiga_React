@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Videojuego() {
+function Videojuego(props) {
   return (
     <div>
       <div className="container">
@@ -114,8 +114,7 @@ function Videojuego() {
 
                     <h5 className="card-title">Razor</h5>
 
-                    <p className="card-text">Lider de grupo y programador, su fuerte es la creacion de contenido en el ambito de
-                      programacion de paginas web, diseño de landing pages y uso de variables.
+                    <p className="card-text">{props.informacion}
 
                     </p>
 
